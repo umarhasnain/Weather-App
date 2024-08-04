@@ -1,0 +1,123 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ body {
+     background-image: url("./images/pexels-tahir-shaw-186980.jpg");
+     background-repeat: repeat;
+     background-size: cover;
+ }
+
+
+ .wrapper {
+     width: 300px;
+     height: 580px;
+     background: transparent;
+     border-radius: 15px;
+     border: 5px solid black;
+     margin: 30px auto;
+ }
+.search_img{
+    padding-left: -50px;
+    margin-left: -50px;
+    margin-top: 15px;
+    
+}
+ .search_box {
+     padding-top: 10px;
+     display: flex;
+     
+ }
+
+ input {
+     width: 270px;
+     height: 45px;
+     margin: 10px;
+     border: 2px solid black;
+     border-radius: 10px;
+     padding-left: 20px;
+     font-size: 20px;
+     font-weight: 700;
+    
+ }
+
+ button {
+     height: 40px;
+     width: 10px;
+     margin: 10px;
+     border: 2px solid black;
+     border-radius: 5px;
+     color: black;
+     padding: 5px;
+     font-size: 15px;
+     font-weight: bold;
+
+ }
+
+ .name_box{
+    margin: 20px;
+ }
+ .name_box > h2{
+    padding-bottom:15px;
+ }
+ .box {
+     margin-top: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     flex-direction: column;
+ }
+
+ .temperature{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+.humidity{
+    height: 50px;
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 5px 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imgSet{
+    margin-top: 12px;
+    margin-right: 10px;
+    width: 40px;
+    margin-top: -1px;
+}
+
+
+
+
+
+
+ /* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    background: red;
+    padding:30px 20px;
+    text-align: center;
+} */
